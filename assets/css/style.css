@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.dashed-border {
+    border-color: black;
+    border-style: dashed;
+    border-width: 1px;
+}
+ 
+#location {
+    background-color: lightgrey;
+}
+
+.search {
+    color: white;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+
+}
+
+#city-list ul {
+    list-style-type: none;
+}
+
+#city-list li i {
+    font-size: xx-large;
+}
+
+#city-list button.delete-city {
+    background-color: #494949;
+}
+
+#city-info {
+    min-height: 135px;
+}
+
+#location-map {
+    height: 300px;
+    width: 100%;
+}
+
+button:hover {
+    border-color: #80ffff;
+}
+
+.btn-secondary.focus, .btn-secondary:focus {
+    box-shadow: 0 0 0 0.2rem rgb(0 0 0 / 70%);
+}
+
+ul {
+    list-style-type: none;
+}
+
+#weather{
+    font-size:x-large;
+}
