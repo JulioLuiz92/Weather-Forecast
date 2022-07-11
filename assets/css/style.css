@@ -23,7 +23,7 @@ p {
     border-width: 1px;
 }
  
-#location {
+#contacts {
     background-color: lightgrey;
 }
 
@@ -34,19 +34,20 @@ p {
 
 }
 
-#city-list ul {
+
+#contact-list ul {
     list-style-type: none;
 }
 
-#city-list li i {
+#contact-list li i {
     font-size: xx-large;
 }
 
-#city-list button.delete-city {
+#contact-list button.delete-contact {
     background-color: #494949;
 }
 
-#city-info {
+#contact-info {
     min-height: 135px;
 }
 
@@ -54,7 +55,6 @@ p {
     height: 300px;
     width: 100%;
 }
-
 button:hover {
     border-color: #80ffff;
 }

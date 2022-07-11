@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-  <!-- CSS -->
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
@@ -14,9 +14,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/icons.css">
-  <title>Umbrella</title>
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/ico" href="./assets/images/favicon.ico">
+  <title>Weather Forecast</title>
+
 </head>
 
 <body>
@@ -29,7 +28,7 @@
     <div class="container-fluid">
    
       <div class="row">
-        <section id="location" class="col-lg-3 col-sm-12 ">
+        <section id="contacts" class="col-lg-3 col-sm-12 ">
           <div
             class="search">
             <h3 class="col-xl-10 text-xl-left p-0">
@@ -40,22 +39,22 @@
 
           <section id="contact-list" class="row">
             <ul class="w-100 container">
-              <!-- li items created via JS function-->
+           
             </ul>
           </section>
         </section>
 
-        <section id="city-data" class="col-lg-9 col-sm-12 bg-light ">
+        <section id="contact-data" class="col-lg-9 col-sm-12 bg-light ">
           <div class="row ">
-            <!-- Display current contact weather -->
+         
             <section id="weather"
               class="d-flex align-items-center justify-content-center col-lg-6 col-sm-12 text-center dashed-border">
               <h4>Weather</h4>
             </section>
 
-            <section id="city-info" class="d-flex flex-column col-lg-6 col-sm-12 bg-light align-items-center text-center justify-content-center dashed-border">            
+            <section id="contact-info" class="d-flex flex-column col-lg-6 col-sm-12 bg-light align-items-center text-center justify-content-center dashed-border">            
               <h4 class="text-center">Location </h4>
-              <div class="text-center" id="display-city"></div>
+              <div class="text-center" id="display-address"></div>
             </section>
 
             <section id="location-map" class="d-flex col-sm-12 align-items-center text-center justify-content-center dashed-border">
@@ -66,8 +65,8 @@
           </div>
         </section>
 
-        <!-- Form - Add new contact -->
-        <div id="city-information" class="modal" tabindex="-1" role="dialog">
+     
+        <div id="contact-information" class="modal" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -92,7 +91,7 @@
           </div>
         </div>
 
-        <!-- Validation Modal -->
+
         <div id="validationModal" class="modal" tabindex="-1" role="dialog">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -116,15 +115,14 @@
 
   </main>
 
-  <!-- JS -->
-  <!-- Google Maps API Link with Dan's API -->
+
   <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSVjMQM3Hgp3upVIWiHSW1CTTP-VFT85A"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
     crossorigin="anonymous"></script>
-  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/index.js"></script>
 
 </body>
 
